@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
     async function sendMessage() {
-        await checkVideoExist()
+        checkVideoExist()
 
         await loadAndPlayAnimation("chat-messages","./Resource/thonking.json", RandomTime()*1000)
 
